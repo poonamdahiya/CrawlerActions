@@ -1,0 +1,25 @@
+{
+  "name": "applitools-eyes-action",
+  "version": "1.0.0",
+  "description": "Applitools Eyes GitHub Action",
+  "main": "dist/index.js",
+  "repository": "git@github.com:colbyfayock/applitools-eyes-action.git",
+  "author": "Colby Fayock <fayock@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "crawl": "sitemap-generator https://colbyfayock.com",
+    "test": "cypress run"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
+    "@actions/io": "^1.0.2",
+    "@applitools/eyes-cypress": "^3.17.0",
+    "cypress": "^6.2.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "sitemap-generator": "^8.5.1",
+    "xml2js": "^0.4.23"
+  }
+}
