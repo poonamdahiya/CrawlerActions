@@ -19,3 +19,4 @@ jobs:
       with:
         appName: 'TestApp'
         baseUrl: https://auspost.com.au/shop/
+        maxDepth: 3
